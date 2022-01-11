@@ -13,3 +13,7 @@
     background-color: cornflowerblue;
     border: 2px solid black;
 }
+
+.foto{
+    background-image: url(/img/cohete.png);
+}
