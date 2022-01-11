@@ -1,8 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .jumbotron{
     background-color: black;
+}
+
+.prod{
+    height: 500px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
 }
