@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+
 .jumbotron{
     background-color: rgba(0, 0, 0, 0.041);
     color: cornsilk;
-    text-shadow: 0, 0, 0, 2px, black;
+    text-shadow: 0, 0, 2px, black;
 }
+.videoindex{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+
+    z-index: -1;
+}
+
 
 .video{
     position: fixed;
@@ -18,19 +27,22 @@
 }
 
 .prod{
-    height: 500px;
+    height: 300px;
+    min-width: 500px;
     background-color: cornflowerblue;
     border: 2px solid black;
-    /* background-image: url(/img/cohete.png); */
     background-position: center;
     background-size: contain;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .productos{ 
-    height: 300px ;
+    height: 150px ;
     background-color: cadetblue;
     background-image: url(/img/cohete.png);
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
+    
 }
