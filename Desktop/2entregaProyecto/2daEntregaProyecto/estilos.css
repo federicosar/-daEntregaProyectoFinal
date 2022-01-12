@@ -6,10 +6,12 @@
 
 
 .jumbotron{
-    background-color: rgba(0, 0, 0, 0.041);
-    color: cornsilk;
-    text-shadow: 0, 0, 2px, black;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: rgb(209, 178, 55);
+    text-shadow:0 0 10px black
+    
 }
+
 .videoindex{
     position: fixed;
     min-height: 100%;
@@ -26,6 +28,13 @@
     z-index: -1;
 }
 
+.container-fluid{
+    display: flex;
+}
+
+.row{
+    justify-content: center;
+}
 .prod{
     height: 300px;
     min-width: 500px;
