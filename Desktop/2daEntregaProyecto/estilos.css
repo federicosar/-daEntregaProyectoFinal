@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.24);
+    color: rgb(209, 178, 55);
+    text-shadow:0 0 10px black
+    
+}
+
+.videoindex{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+
+    z-index: -1;
+}
+
+
+.video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+.videonos{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -3;
+
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.row{
+    justify-content: center;
+}
+.prod{
+    height: 300px;
+    min-width: 500px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.productos{ 
+    height: 150px ;
+    background-color: cadetblue;
+    background-image: url(/img/cohete.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+.div form div label{
+    color: blanchedalmond;
+}
